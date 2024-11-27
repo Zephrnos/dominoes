@@ -1,3 +1,10 @@
+
+# In our group there are 3 people
+# Ethan Fischer
+# Tristan Adams
+# Salmann Shire
+
+
 import random
 import time
 from threading import Thread, Lock
@@ -166,7 +173,7 @@ class GameController:
         self.player1 = Player("Player 1", self.table, self.domino_set, self)
         self.player2 = Player("Player 2", self.table, self.domino_set, self)
 
-        self.player1.draw_pieces(2)
+        self.player1.draw_pieces(10)
         self.player2.draw_pieces(10)
 
         # Start player threads
